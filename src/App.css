@@ -1,38 +1,96 @@
-.App {
+.navbar{
+  background-color: gold;
+  margin: auto -16px;
+  padding:16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0,0.5);
+  font-family: fantasy;
+  color:white;
+  font-weight: 500;
+  
+}
+
+.header{
+  background-color:#f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.footer{
+  position:absolute;
   text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  color: black;
+  background-color: gold;
+  padding-top: 2rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.body{
+  border-radius: 7px;
+  box-shadow: 0 5px 5px black;
+  padding: 10px;
+  width: 240px;
+  margin: 20px;
+  float:left;
+  white-space:pre-line;
+  word-wrap:normal;
+  padding: 0 16px;
+  /* background-image: url("https://www.transparenttextures.com/patterns/arabesque.png"); */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+form.create-note input,
+form.create-note textarea{
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize:none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+form.create-note {
+  position: relative;
+  width: 480px;
+  margin:  30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  
 }
 
-.App-link {
-  color: #61dafb;
+.note h1{
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
+
+.note button{
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #f5ba13;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+
+
+/* git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Barathga/keeperapp_clone.git
+git push -u origin main */
