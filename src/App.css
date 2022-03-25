@@ -91,6 +91,6 @@ form.create-note {
 
 /* git add README.md
 git commit -m "first commit"
-git branch -M main
+git branch -M master
 git remote add origin https://github.com/Barathga/keeperapp_clone.git
 git push -u origin main */
